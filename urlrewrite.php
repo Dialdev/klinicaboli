@@ -1,0 +1,161 @@
+<?
+$arUrlRewrite = array(
+	array(
+		"CONDITION" => "#^/o-klinike/oborudovanie-kliniki-/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/o-klinike/oborudovanie-kliniki-/index.php",
+	),
+	array(
+		"CONDITION" => "#^/examples/my-components/news/#",
+		"RULE" => "",
+		"ID" => "demo:news",
+		"PATH" => "/examples/my-components/news_sef.php",
+	),
+	array(
+		"CONDITION" => "#^/communication/web-forms/#",
+		"RULE" => "",
+		"ID" => "bitrix:form",
+		"PATH" => "/local/templates/.default/include/refleksoterapiya.php",
+	),
+	array(
+		"CONDITION" => "#^/communication/web-forms/#",
+		"RULE" => "",
+		"ID" => "bitrix:form.result.new",
+		"PATH" => "/local/templates/.default/components/bitrix/news.list/slider-main/template.php",
+	),
+	array(
+		"CONDITION" => "#^/communication/web-forms/#",
+		"RULE" => "",
+		"ID" => "bitrix:form",
+		"PATH" => "/local/templates/.default/include/lab.php",
+	),
+	array(
+		"CONDITION" => "#^/communication/web-forms/#",
+		"RULE" => "",
+		"ID" => "bitrix:form",
+		"PATH" => "/local/templates/.default/include/ginekologiya.php",
+	),
+	array(
+		"CONDITION" => "#^/communication/web-forms/#",
+		"RULE" => "",
+		"ID" => "bitrix:form",
+		"PATH" => "/local/templates/.default/include/massazh.php",
+	),
+	array(
+		"CONDITION" => "#^/e-store/books/reviews/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/e-store/books/reviews/index.php",
+	),
+	array(
+		"CONDITION" => "#^/o-klinike/smi-o-nas-/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/o-klinike/smi-o-nas-/index.php",
+	),
+	array(
+		"CONDITION" => "#^/communication/forum/#",
+		"RULE" => "",
+		"ID" => "bitrix:forum",
+		"PATH" => "/communication/forum/index.php",
+	),
+	array(
+		"CONDITION" => "#^/e-store/xml_catalog/#",
+		"RULE" => "",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/e-store/xml_catalog/index.php",
+	),
+	array(
+		"CONDITION" => "#^/communication/blog/#",
+		"RULE" => "",
+		"ID" => "bitrix:blog",
+		"PATH" => "/communication/blog/index.php",
+	),
+	array(
+		"CONDITION" => "#^/content/articles/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/content/articles/index.php",
+	),
+	array(
+		"CONDITION" => "#^/content/gallery/#",
+		"RULE" => "",
+		"ID" => "bitrix:photogallery_user",
+		"PATH" => "/content/gallery/index.php",
+	),
+	array(
+		"CONDITION" => "#^/aktsii-i-skidki/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/aktsii-i-skidki/index.php",
+	),
+	array(
+		"CONDITION" => "#^/e-store/books/#",
+		"RULE" => "",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/e-store/books/index.php",
+	),
+	array(
+		"CONDITION" => "#^/content/photo/#",
+		"RULE" => "",
+		"ID" => "bitrix:photogallery",
+		"PATH" => "/content/photo/index.php",
+	),
+	array(
+		"CONDITION" => "#^/content/news/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/content/news/index.php",
+	),
+	array(
+		"CONDITION" => "#^/vopros-otvet/#",
+		"RULE" => "",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/vopros-otvet/index.php",
+	),
+	array(
+		"CONDITION" => "#^/content/faq/#",
+		"RULE" => "",
+		"ID" => "bitrix:support.faq",
+		"PATH" => "/content/faq/index.php",
+	),
+	array(
+		"CONDITION" => "#^/articles/#",
+		"RULE" => "",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/articles/index.php",
+	),
+	array(
+		"CONDITION" => "#^/doctors/#",
+		"RULE" => "",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/doctors/index.php",
+	),
+	array(
+		"CONDITION" => "#^/novosti/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/novosti/index.php",
+	),
+	array(
+		"CONDITION" => "#^/otzyvy/#",
+		"RULE" => "",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/otzyvy/index.php",
+	),
+	array(
+		"CONDITION" => "#^/uslugi/#",
+		"RULE" => "",
+		"ID" => "bitrix:catalog",
+		"PATH" => "/uslugi/index.php",
+	),
+	array(
+		"CONDITION" => "#^/news/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/news/index.php",
+	),
+);
+
+?>

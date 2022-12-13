@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001670914099';
+$dateexpire = '001670917699';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{i:824;a:14:{s:2:"ID";s:3:"824";s:11:"TIMESTAMP_X";s:19:"30.08.2017 12:09:49";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"469";s:5:"WIDTH";s:3:"703";s:9:"FILE_SIZE";s:6:"516843";s:12:"CONTENT_TYPE";s:9:"image/png";s:6:"SUBDIR";s:10:"iblock/e06";s:9:"FILE_NAME";s:11:"akciya3.png";s:13:"ORIGINAL_NAME";s:11:"akciya3.png";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"ea88a4a1c753acfe7aafdf4ad83b6a80";s:4:"~src";b:0;}i:825;a:14:{s:2:"ID";s:3:"825";s:11:"TIMESTAMP_X";s:19:"30.08.2017 12:11:36";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"469";s:5:"WIDTH";s:3:"703";s:9:"FILE_SIZE";s:6:"516843";s:12:"CONTENT_TYPE";s:9:"image/png";s:6:"SUBDIR";s:10:"iblock/f9f";s:9:"FILE_NAME";s:11:"akciya3.png";s:13:"ORIGINAL_NAME";s:11:"akciya3.png";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"1d6b53534bc144735c1d7c0f9d42f0c6";s:4:"~src";b:0;}i:829;a:14:{s:2:"ID";s:3:"829";s:11:"TIMESTAMP_X";s:19:"30.08.2017 14:04:29";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"500";s:5:"WIDTH";s:3:"359";s:9:"FILE_SIZE";s:6:"106454";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/b9c";s:9:"FILE_NAME";s:38:"howspinalcordstimulationworks2 (1).jpg";s:13:"ORIGINAL_NAME";s:38:"howspinalcordstimulationworks2 (1).jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"b22ee0418c6d8809674c800c40eec1dd";s:4:"~src";b:0;}}}';
+return true;
+?>

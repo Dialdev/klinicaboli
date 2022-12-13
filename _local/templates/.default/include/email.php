@@ -1,0 +1,1 @@
+<a class="copyright__link" href="mailto:clinicaboli@yandex.ru">clinicaboli@yandex.ru</a>

@@ -1,0 +1,1 @@
+<a class="copyright__link" href="tel:+74842546266">+7 (4842) 54-62-66</a><a class="copyright__link"href="tel:+79158901515">+7 (915) 890-15-15</a>

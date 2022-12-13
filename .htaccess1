@@ -1,0 +1,8 @@
+####fromCpanel#### Options +Indexes ####fromCpanel#### Options -Indexes ErrorDocument 404 /404.php AddType application/x-httpd-php .php RewriteEngine On RewriteCond %{ENV:HTTPS} !on RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] php_value mbstring.internal_encoding UTF-8 <span mod_php5.c="">
+php_flag session.use_trans_sid off php_value magic_quotes_gpc off php_value max_input_vars 10000 #php_value display_errors 1 php_value mbstring.func_overload 2 php_value mbstring.internal_encoding UTF-8 </span> <span mod_rewrite.c="">
+Options +FollowSymLinks RewriteEngine On RewriteCond %{HTTP_HOST} ^([^www].*)$ RewriteRule ^(.*)$ https://www.%1/$1 [L,R=301] RewriteRule ^sitemap\.xml$ sitemap\.php [L] RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-l RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$ RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L] RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}] </span> <span mod_dir.c="">
+DirectoryIndex index.php index.html </span>
+AddType application/x-font-woff .woff <span mod_expires.c="">
+ExpiresActive on ExpiresByType image/jpeg "access plus 7 day" ExpiresByType image/gif "access plus 7 day" ExpiresByType image/png "access plus 7 day" ExpiresByType text/css "access plus 7 day" ExpiresByType application/javascript "access plus 7 day" ExpiresByType application/x-font-woff "access plus 7 day" </span>
+Redirect 301 /uslugi/ginekologiya/ https://www.clinicaboli.ru/uslugi/akusherstvo-i-ginekologiya/
+Redirect 301 /uslugi/akusherstvo-i-ginekologiya/konsultatsiya-ginekologa-endokrinologa/ https://www.clinicaboli.ru/uslugi/akusherstvo-i-ginekologiya/konsultatsiya-ginekologa/

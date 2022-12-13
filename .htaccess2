@@ -1,0 +1,60 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+
+  php_flag session.use_trans_sid off
+  #php_flag default_charset UTF-8
+  #php_value display_errors 1
+
+
+<IfModule mod_php7.c>
+  php_flag session.use_trans_sid off
+  #php_flag default_charset UTF-8
+  #php_value display_errors 1
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+
+  RewriteBase /
+
+  #убираем /index.php в конце алиаса
+RewriteCond %{REQUEST_URI} ^(.*)/index\.php$
+RewriteCond %{THE_REQUEST} !bitrix/admin/
+RewriteRule ^(.*)index\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+  #добавляем / в конце алиасов
+RewriteCond %{REQUEST_URI} ^(.*)/$
+RewriteRule .* - [L]
+
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule .* - [L]
+  
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteCond %{REQUEST_URI} ^(.*)/index.php$
+RewriteRule ^(.*)$ %1/ [R=301,L]
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+  RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+
+  RewriteRule ^(.*)index\.php$ $1 [R=301,L]
+  
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 7 day"
+  ExpiresByType image/gif "access plus 7 day"
+  ExpiresByType image/png "access plus 7 day"
+  ExpiresByType text/css "access plus 7 day"
+  ExpiresByType application/javascript "access plus 7 day"  
+</IfModule>

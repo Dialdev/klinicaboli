@@ -1,0 +1,74 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+
+  php_flag session.use_trans_sid off
+  #php_flag default_charset UTF-8
+  #php_value display_errors 1
+
+
+<IfModule mod_php7.c>
+  php_flag session.use_trans_sid off
+  #php_flag default_charset UTF-8
+  #php_value display_errors 1
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+  RewriteBase /
+
+Redirect 301 /uslugi/reabilitatsiya/programma-posle-perenesennogo-insulta-/ https://clinicaboli.ru/uslugi/reabilitatsiya/programma-posle-insulta-ili-cherepno-mozgovoy-travmy/
+
+  # редирект с http на https
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # редирект с www на без-www
+  RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+  
+  # убираем /index.php в конце алиаса
+  RewriteRule ^(.*)index\.php$ $1 [R=301,L]
+
+  # убираем дубли /
+  RewriteCond %{REQUEST_URI} ^(.*)/{2,}(.*)$
+  RewriteRule . %1/%2 [R=301,L]
+
+  # добавляем / в конце алиасов
+  #RewriteCond %{REQUEST_URI} ^(.*)/$
+  #RewriteRule .* - [L]
+
+	RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*[^/])$ $1/ [L,R=301]
+
+  RewriteCond %{ENV:REDIRECT_STATUS} 200
+  RewriteRule .* - [L]
+  
+  RewriteCond %{REQUEST_METHOD} =GET
+  RewriteCond %{REQUEST_URI} ^(.*)/index.php$
+  RewriteRule ^(.*)$ %1/ [R=301,L]
+  
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+  RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 7 day"
+  ExpiresByType image/gif "access plus 7 day"
+  ExpiresByType image/png "access plus 7 day"
+  ExpiresByType text/css "access plus 7 day"
+  ExpiresByType application/javascript "access plus 7 day"  
+</IfModule>

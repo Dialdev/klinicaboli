@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001670928484';
+$dateexpire = '001670932084';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{i:321;a:14:{s:2:"ID";s:3:"321";s:11:"TIMESTAMP_X";s:19:"20.07.2017 15:36:04";s:9:"MODULE_ID";s:4:"main";s:6:"HEIGHT";s:2:"77";s:5:"WIDTH";s:2:"75";s:9:"FILE_SIZE";s:4:"5447";s:12:"CONTENT_TYPE";s:9:"image/png";s:6:"SUBDIR";s:6:"uf/2ea";s:9:"FILE_NAME";s:16:"Уролог.png";s:13:"ORIGINAL_NAME";s:16:"Уролог.png";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"86de08a11e6ad2bfe7287e688a29ee84";s:4:"~src";b:0;}i:323;a:14:{s:2:"ID";s:3:"323";s:11:"TIMESTAMP_X";s:19:"20.07.2017 15:37:09";s:9:"MODULE_ID";s:4:"main";s:6:"HEIGHT";s:2:"80";s:5:"WIDTH";s:2:"78";s:9:"FILE_SIZE";s:4:"3507";s:12:"CONTENT_TYPE";s:9:"image/png";s:6:"SUBDIR";s:6:"uf/652";s:9:"FILE_NAME";s:32:"Эндокринология.png";s:13:"ORIGINAL_NAME";s:32:"Эндокринология.png";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"d2432d3cf241b60ccded13ac7a7cccc5";s:4:"~src";b:0;}i:324;a:14:{s:2:"ID";s:3:"324";s:11:"TIMESTAMP_X";s:19:"20.07.2017 15:55:57";s:9:"MODULE_ID";s:4:"main";s:6:"HEIGHT";s:2:"93";s:5:"WIDTH";s:2:"93";s:9:"FILE_SIZE";s:4:"3270";s:12:"CONTENT_TYPE";s:9:"image/png";s:6:"SUBDIR";s:6:"uf/d7d";s:9:"FILE_NAME";s:11:"injects.png";s:13:"ORIGINAL_NAME";s:11:"injects.png";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"56f5d24450791b8962ea71d6903e1eb0";s:4:"~src";b:0;}}}';
+return true;
+?>

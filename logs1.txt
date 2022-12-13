@@ -1,0 +1,24 @@
+Array
+(
+    [NAME] => test
+    [IBLOCK_SECTION] => Array
+        (
+            [0] => Заболевания позвоночника
+        )
+
+    [PREVIEW_TEXT_TYPE] => text
+    [PREVIEW_TEXT] => test
+    [MODIFIED_BY] => 21
+    [PROPERTY_VALUES] => Array
+        (
+            [126] => 1
+            [127] => 
+        )
+
+    [ACTIVE] => Y
+    [IBLOCK_ID] => 23
+    [DATE_ACTIVE_FROM] => 22.01.2020 11:49:36
+    [ACTIVE_FROM] => 22.01.2020 11:49:36
+    [SEARCHABLE_CONTENT] => TEST
+TEST
+)

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001670927753';
+$dateexpire = '001670931353';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{i:860;a:14:{s:2:"ID";s:3:"860";s:11:"TIMESTAMP_X";s:19:"11.09.2017 15:12:12";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"127";s:5:"WIDTH";s:3:"300";s:9:"FILE_SIZE";s:5:"18647";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/419";s:9:"FILE_NAME";s:37:"headache-health-FI-e1484479510509.jpg";s:13:"ORIGINAL_NAME";s:37:"headache-health-FI-e1484479510509.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"6f847c1d0781b03cb1ccf1bd0954559c";s:4:"~src";b:0;}i:861;a:14:{s:2:"ID";s:3:"861";s:11:"TIMESTAMP_X";s:19:"11.09.2017 15:17:44";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"171";s:5:"WIDTH";s:3:"300";s:9:"FILE_SIZE";s:5:"24107";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/423";s:9:"FILE_NAME";s:9:"mozg1.jpg";s:13:"ORIGINAL_NAME";s:9:"mozg1.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"46aefa1df10ba2bd020ba23e0f3e176d";s:4:"~src";b:0;}i:862;a:14:{s:2:"ID";s:3:"862";s:11:"TIMESTAMP_X";s:19:"11.09.2017 15:20:05";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"211";s:5:"WIDTH";s:3:"300";s:9:"FILE_SIZE";s:5:"21961";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/2b5";s:9:"FILE_NAME";s:7:"2-4.jpg";s:13:"ORIGINAL_NAME";s:7:"2-4.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"1d2ce5ba6d9d90ff9fc42ed555187043";s:4:"~src";b:0;}}}';
+return true;
+?>

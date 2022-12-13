@@ -1,0 +1,256 @@
+ Host: www.klinika-boli.dialweb.ru
+Date: 2017-07-27 15:32:56
+Module: 
+4
+    my_onAfterResultAddUpdate < call_user_func_array < ExecuteModuleEventEx < CAllFormResult::Add < include
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/form/classes/general/form_callformresult.php:717
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/form.result.new/component.php:196
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/component.php:548
+----------
+Host: www.klinika-boli.dialweb.ru
+Date: 2017-07-27 15:34:21
+Module: 
+true
+    my_onAfterResultAddUpdate < call_user_func_array < ExecuteModuleEventEx < CAllFormResult::Add < include
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/form/classes/general/form_callformresult.php:717
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/form.result.new/component.php:196
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/component.php:548
+----------
+Host: www.klinika-boli.dialweb.ru
+Date: 2017-07-27 15:59:42
+Module: 
+true
+    my_onAfterResultAddUpdate < call_user_func_array < ExecuteModuleEventEx < CAllFormResult::Add < include
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/form/classes/general/form_callformresult.php:717
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/form.result.new/component.php:196
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/component.php:548
+----------
+Host: www.klinika-boli.dialweb.ru
+Date: 2017-07-27 16:00:48
+Module: 
+array (
+  'ID' => '10',
+  'TIMESTAMP_X' => '27.07.2017 16:00:48',
+  'DATE_CREATE' => '27.07.2017 16:00:48',
+  'STATUS_ID' => '4',
+  'FORM_ID' => '4',
+  'USER_ID' => '1',
+  'USER_AUTH' => 'Y',
+  'STAT_GUEST_ID' => '0',
+  'STAT_SESSION_ID' => '0',
+  'SENT_TO_CRM' => 'N',
+  'IMAGE_ID' => NULL,
+  'DESCRIPTION' => '',
+  'DESCRIPTION_TYPE' => 'text',
+  'SHOW_RESULT_TEMPLATE' => NULL,
+  'PRINT_RESULT_TEMPLATE' => NULL,
+  'EDIT_RESULT_TEMPLATE' => NULL,
+  'NAME' => 'Запись к врачу',
+  'SID' => 'SIMPLE_FORM_4',
+  'VARNAME' => 'SIMPLE_FORM_4',
+  'STATUS_TITLE' => 'DEFAULT',
+  'STATUS_DESCRIPTION' => 'DEFAULT',
+  'STATUS_CSS' => 'statusgreen',
+)
+    my_onAfterResultAddUpdate < call_user_func_array < ExecuteModuleEventEx < CAllFormResult::Add < include
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/form/classes/general/form_callformresult.php:717
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/form.result.new/component.php:196
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/component.php:548
+----------
+Host: klinika-boli.dialweb.ru
+Date: 2017-07-27 16:24:11
+Module: 
+array (
+  'TIMESTAMP_X' => 'now()',
+  'DATE_CREATE' => 'now()',
+  'STATUS_ID' => 4,
+  'FORM_ID' => '4',
+  'USER_ID' => 0,
+  'USER_AUTH' => '\'N\'',
+  'STAT_GUEST_ID' => 0,
+  'STAT_SESSION_ID' => 0,
+  'SENT_TO_CRM' => '\'N\'',
+)
+    my_onBeforeResultAdd < call_user_func_array < ExecuteModuleEventEx < CAllFormResult::Add < include
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/form/classes/general/form_callformresult.php:427
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/form.result.new/component.php:196
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/component.php:548
+----------
+Host: www.klinika-boli.dialweb.ru
+Date: 2017-07-27 16:29:24
+Module: 
+array (
+  'clear_cache' => 'Y',
+  'bxajaxid' => '2021fa8950e9ed635f0eb173e612bd9d',
+  'AJAX_CALL' => 'Y',
+  'sessid' => '5037b8874c26cbe64f8c806e612628e9',
+  'WEB_FORM_ID' => '4',
+  'form_text_33' => 'еуые',
+  'form_text_34' => '+7 (111) 111-11-11',
+  'form_text_35' => 'Инъекции',
+  'form_text_36' => 'Городнов Андрей Владимирович',
+  'form_text_37' => '',
+  'form_url_38' => 'http://ok.ok',
+  'form_text_39' => '',
+  'web_form_submit' => 'Записаться',
+  '_ym_uid' => '149197314935528394',
+  'last_visit' => '1499827994277::1499838794277',
+  'carrotquest_uid' => '143514925',
+  'carrotquest_auth_token' => 'user.143514925.10066-0c161764fa416d5fe005d64fab.dd3e59c2cb63b759472d45f4ac4d10a0c72ee956cc126cc5',
+  '_ga' => 'GA1.2.153464516.1492061111',
+  'BITRIX_SM_SOUND_LOGIN_PLAYED' => 'Y',
+  'BITRIX_SM_DSC' => '44',
+  'PHPSESSID' => '3c9ed8b305457987e39fb4c90cb461ba',
+  'BITRIX_SM_LOGIN' => 'admin',
+)
+    my_onBeforeResultAdd < call_user_func_array < ExecuteModuleEventEx < CAllFormResult::Add < include
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/form/classes/general/form_callformresult.php:427
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/form.result.new/component.php:196
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/component.php:548
+----------
+Host: klinika-boli.dialweb.ru
+Date: 2017-07-27 22:37:08
+Module: 
+array (
+  'back_url_admin' => '/bitrix/admin/',
+  'clear_cache' => 'Y',
+  'bxajaxid' => '2021fa8950e9ed635f0eb173e612bd9d',
+  'AJAX_CALL' => 'Y',
+  'sessid' => 'fa496094540bcb9f3f9af1f7d9f63c75',
+  'WEB_FORM_ID' => '4',
+  'form_text_33' => 'test',
+  'form_text_34' => '+7 (911) 111-11-11',
+  'form_text_35' => 'Инъекции',
+  'form_text_36' => '',
+  'form_text_37' => '14:30',
+  'form_url_38' => 'http://ok.ok',
+  'form_text_39' => '17',
+  'web_form_submit' => 'Записаться',
+  '_ym_uid' => '1487603556592277585',
+  'last_visit' => '1497885902478::1497896702478',
+  '_ga' => 'GA1.2.1271050543.1487603556',
+  'PHPSESSID' => '2ede3a3248f26e249624b870393474c3',
+  'BITRIX_SM_LOGIN' => 'admin',
+  'BITRIX_SM_SOUND_LOGIN_PLAYED' => 'Y',
+  'BITRIX_SM_LAST_SETTINGS' => '',
+)
+    my_onBeforeResultAdd < call_user_func_array < ExecuteModuleEventEx < CAllFormResult::Add < include
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/form/classes/general/form_callformresult.php:427
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/form.result.new/component.php:196
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/component.php:548
+----------
+Host: klinika-boli.dialweb.ru
+Date: 2017-07-27 22:57:24
+Module: 
+array (
+  'clear_cache' => 'Y',
+  'bxajaxid' => '2021fa8950e9ed635f0eb173e612bd9d',
+  'AJAX_CALL' => 'Y',
+  'sessid' => 'fa496094540bcb9f3f9af1f7d9f63c75',
+  'WEB_FORM_ID' => '4',
+  'form_text_33' => 'testlll',
+  'form_text_34' => '+7 (911) 111-11-11',
+  'form_text_35' => 'Инъекции',
+  'form_text_36' => '',
+  'form_text_37' => '14:30',
+  'form_url_38' => 'http://ok.ok',
+  'form_text_39' => '17',
+  'web_form_submit' => 'Записаться',
+  '_ym_uid' => '1487603556592277585',
+  'last_visit' => '1497885902478::1497896702478',
+  '_ga' => 'GA1.2.1271050543.1487603556',
+  'PHPSESSID' => '2ede3a3248f26e249624b870393474c3',
+  'BITRIX_SM_LOGIN' => 'admin',
+  'BITRIX_SM_SOUND_LOGIN_PLAYED' => 'Y',
+)
+    my_onBeforeResultAdd < call_user_func_array < ExecuteModuleEventEx < CAllFormResult::Add < include
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/form/classes/general/form_callformresult.php:427
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/form.result.new/component.php:196
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/component.php:548
+----------
+Host: klinika-boli.dialweb.ru
+Date: 2017-07-27 23:00:00
+Module: 
+array (
+  'clear_cache' => 'Y',
+  'bxajaxid' => '2021fa8950e9ed635f0eb173e612bd9d',
+  'AJAX_CALL' => 'Y',
+  'sessid' => 'fa496094540bcb9f3f9af1f7d9f63c75',
+  'WEB_FORM_ID' => '4',
+  'form_text_33' => 'tessssss',
+  'form_text_34' => '+7 (911) 111-11-11',
+  'form_text_35' => 'Инъекции',
+  'form_text_36' => '',
+  'form_text_37' => '14:30',
+  'form_url_38' => 'http://ok.ok',
+  'form_text_39' => '17',
+  'web_form_submit' => 'Записаться',
+  '_ym_uid' => '1487603556592277585',
+  'last_visit' => '1497885902478::1497896702478',
+  '_ga' => 'GA1.2.1271050543.1487603556',
+  'PHPSESSID' => '2ede3a3248f26e249624b870393474c3',
+  'BITRIX_SM_LOGIN' => 'admin',
+  'BITRIX_SM_SOUND_LOGIN_PLAYED' => 'Y',
+)
+    my_onBeforeResultAdd < call_user_func_array < ExecuteModuleEventEx < CAllFormResult::Add < include
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/form/classes/general/form_callformresult.php:427
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/form.result.new/component.php:196
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/component.php:548
+----------
+Host: klinika-boli.dialweb.ru
+Date: 2017-07-28 11:04:06
+Module: 
+array (
+  'NAME' => '6785',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'PREVIEW_TEXT' => '5685678',
+  'MODIFIED_BY' => '1',
+  'PROPERTY_VALUES' => 
+  array (
+  ),
+  'ACTIVE' => 'N',
+  'IBLOCK_ID' => 23,
+  'DATE_ACTIVE_FROM' => '28.07.2017 11:04:06',
+  'ACTIVE_FROM' => '28.07.2017 11:04:06',
+  'SEARCHABLE_CONTENT' => '6785
+5685678',
+)
+    OnBeforeIBlockElementAddHandler < call_user_func_array < ExecuteModuleEventEx < CAllIBlockElement::CheckFields < CAllIBlockElement::Add
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/iblock/classes/general/iblockelement.php:4494
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/iblock/classes/general/iblockelement.php:3358
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/iblock.element.add.form/component.php:756
+----------
+Host: klinika-boli.dialweb.ru
+Date: 2017-07-28 11:04:48
+Module: 
+array (
+  'NAME' => '4567',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'PREVIEW_TEXT' => '457',
+  'MODIFIED_BY' => '1',
+  'PROPERTY_VALUES' => 
+  array (
+  ),
+  'ACTIVE' => 'N',
+  'IBLOCK_ID' => 23,
+  'DATE_ACTIVE_FROM' => '28.07.2017 11:04:48',
+  'ACTIVE_FROM' => '28.07.2017 11:04:48',
+  'SEARCHABLE_CONTENT' => '4567
+457',
+)
+    OnBeforeIBlockElementAddHandler < call_user_func_array < ExecuteModuleEventEx < CAllIBlockElement::CheckFields < CAllIBlockElement::Add
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/main/classes/general/module.php:475
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/iblock/classes/general/iblockelement.php:4494
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/modules/iblock/classes/general/iblockelement.php:3358
+	/var/www/klinka-boli/data/www/klinika-boli.dialweb.ru/bitrix/components/bitrix/iblock.element.add.form/component.php:756
+----------

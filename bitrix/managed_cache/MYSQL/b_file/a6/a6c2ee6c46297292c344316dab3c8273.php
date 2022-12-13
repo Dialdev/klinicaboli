@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001670735846';
+$dateexpire = '001670739446';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:3:{i:2790;a:14:{s:2:"ID";s:4:"2790";s:11:"TIMESTAMP_X";s:19:"27.03.2020 08:23:01";s:9:"MODULE_ID";s:7:"fileman";s:6:"HEIGHT";s:3:"736";s:5:"WIDTH";s:3:"680";s:9:"FILE_SIZE";s:5:"41116";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:16:"medialibrary/684";s:9:"FILE_NAME";s:33:"Бондаренко ВВ (1).jpg";s:13:"ORIGINAL_NAME";s:33:"Бондаренко ВВ (1).jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"3dcc1e4201dbf410fcd6cde73204d3d0";s:4:"~src";b:0;}i:2791;a:14:{s:2:"ID";s:4:"2791";s:11:"TIMESTAMP_X";s:19:"31.03.2020 17:09:17";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"533";s:5:"WIDTH";s:3:"800";s:9:"FILE_SIZE";s:6:"156278";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/b20";s:9:"FILE_NAME";s:12:"IMG_9460.jpg";s:13:"ORIGINAL_NAME";s:12:"IMG_9460.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"e07825f88d1647c597439dddb46a8161";s:4:"~src";b:0;}i:2792;a:14:{s:2:"ID";s:4:"2792";s:11:"TIMESTAMP_X";s:19:"31.03.2020 17:09:17";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"599";s:5:"WIDTH";s:3:"899";s:9:"FILE_SIZE";s:6:"382501";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/332";s:9:"FILE_NAME";s:12:"IMG_9460.jpg";s:13:"ORIGINAL_NAME";s:12:"IMG_9460.jpg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"1ec2b3eea0711d4d7dda7432f77d8efc";s:4:"~src";b:0;}}}';
+return true;
+?>
